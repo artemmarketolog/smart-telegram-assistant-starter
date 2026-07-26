@@ -1,0 +1,20 @@
+{
+  "name": "smart-telegram-assistant-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram-only starter kit: Codex plans typed table queries, trusted code executes them.",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "demo": "bun run scripts/demo.ts",
+    "doctor": "bun run scripts/doctor.ts",
+    "typecheck": "bun x tsc --noEmit",
+    "test": "bun test",
+    "secret:scan": "bun run scripts/secret-scan.ts",
+    "check": "bun run typecheck && bun test && bun run secret:scan"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "typescript": "^5.7.2"
+  }
+}

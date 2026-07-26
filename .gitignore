@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+config/sources.json
+data/
+data-sources/*
+!data-sources/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.log
+coverage/
+dist/
+.DS_Store

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "orders",
+      "label": "Демо-заказы",
+      "description": "Учебная таблица заказов. Все данные вымышлены.",
+      "path": "orders.csv",
+      "primary_key": "order_id",
+      "columns": {
+        "order_id": {
+          "type": "text",
+          "description": "Стабильный идентификатор заказа",
+          "aliases": ["заказ", "номер заказа"]
+        },
+        "date": {
+          "type": "date",
+          "description": "Дата заказа",
+          "aliases": ["дата"]
+        },
+        "manager": {
+          "type": "text",
+          "description": "Ответственный менеджер",
+          "aliases": ["сотрудник", "ответственный"]
+        },
+        "status": {
+          "type": "text",
+          "description": "Текущий статус заказа",
+          "aliases": ["этап", "состояние"]
+        },
+        "amount": {
+          "type": "number",
+          "description": "Сумма заказа в тенге",
+          "aliases": ["сумма", "выручка"]
+        }
+      }
+    }
+  ]
+}

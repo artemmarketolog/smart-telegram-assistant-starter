@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Safe Telegram Assistant"
+  short_description: "Build a safe Telegram bot with reliable table queries"
+  default_prompt: "Use $build-safe-telegram-assistant to adapt this starter to my Telegram assistant and table schema."
